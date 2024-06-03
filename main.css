@@ -1,0 +1,101 @@
+/* Starting css */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #352f5b;
+  color: #fff;
+}
+
+/* Todo List CSS */
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 25px;
+  font-size: 2.6rem;
+}
+
+.show-box{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-box input {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 14px 24px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+
+
+.input-box button {
+    font-size: 1.4rem;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+ol {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ol li {
+  background: #423a6f;
+  border-radius: 20px;
+  color: #fff;
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+ol li .btn-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ol li .btn-container button {
+  background: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+ol li input {
+  padding: 0 10px;
+}
