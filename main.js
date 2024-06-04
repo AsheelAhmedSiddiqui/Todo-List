@@ -2,6 +2,7 @@
 let userValue = document.getElementById("userValue");
 let addBtn = document.getElementById("add");
 let ol = document.getElementById("ol");
+let show = document.getElementsByClassName("show-box");
 
 addBtn.addEventListener("click", () => {
   let li = document.createElement("li");
@@ -69,3 +70,9 @@ userValue.addEventListener("keydown", (e) => {
     li.appendChild(newDiv);
   }
 });
+
+
+let now = new Date();
+let currYear = now.getFullYear();
+let span =  document.getElementById('year');
+span.textContent = `2024 - ${currYear}`;
